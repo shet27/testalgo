@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Search {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
