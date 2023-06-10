@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Search {
 
     // Function to generate random numbers
     //new line added
