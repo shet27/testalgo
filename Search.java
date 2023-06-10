@@ -10,7 +10,7 @@ public class Search {
     //new line added
     public static List<Integer> generateRandomNumbers(int start, int end, int count) {
         List<Integer> numbers = new ArrayList<>();
-        for (int i = start; i <= end; i++) {
+        for (int i = start; i <= end; i++) {  
             numbers.add(i);
         }
         Collections.shuffle(numbers);
@@ -26,7 +26,7 @@ public class Search {
         Collections.sort(randomNumbers); // Sort the numbers
         System.out.println(randomNumbers);
 
-        // To search for an element
+        // To search for an element in array
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter an element to search: ");
         int key = scanner.nextInt();
