@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     // Function to generate random numbers
+    //new line added
     public static List<Integer> generateRandomNumbers(int start, int end, int count) {
         List<Integer> numbers = new ArrayList<>();
         for (int i = start; i <= end; i++) {
